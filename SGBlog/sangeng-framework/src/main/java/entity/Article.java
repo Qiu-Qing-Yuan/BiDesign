@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * 文章表(Article)表实体类
  *
- * @author MJ
+ * @author MakeJava
  * @since 2024-01-03 19:07:56
  */
 @Data
