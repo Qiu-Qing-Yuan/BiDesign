@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2024-01-03  16:11
  */
 @SpringBootApplication
-@MapperScan("com.sangeng.mapper")
+@MapperScan("com.sangeng.domain.mapper")
 public class SanGengBlogApplication {
 
     public static void main(String[] args) {

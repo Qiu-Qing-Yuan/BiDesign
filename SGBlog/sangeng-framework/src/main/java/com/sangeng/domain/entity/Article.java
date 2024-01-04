@@ -1,10 +1,11 @@
-package entity;
+package com.sangeng.domain.entity;
 
 import java.util.Date;
+
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.io.Serializable;
 
 /**
  * 文章表(Article)表实体类
@@ -15,6 +16,7 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@TableName("sg_article")
 @SuppressWarnings("serial")
 public class Article {
 
