@@ -53,3 +53,22 @@ public enum AppHttpCodeEnum {
 }
 ~~~
 
+
+
+
+
+
+
+前后端联调
+
+跨域问题
+
+![image-20240104135704257](README.assets/image-20240104135704257.png)
+
+
+
+
+
+优化相应数据（前端用不到这么多数据）
+
+![image-20240104142024754](README.assets/image-20240104142024754.png)

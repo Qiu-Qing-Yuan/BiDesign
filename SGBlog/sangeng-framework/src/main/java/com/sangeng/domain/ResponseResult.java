@@ -1,6 +1,6 @@
 package com.sangeng.domain;
 
-import com.sangeng.domain.enums.AppHttpCodeEnum;
+import com.sangeng.enums.AppHttpCodeEnum;
 
 import java.io.Serializable;
 

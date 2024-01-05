@@ -1,4 +1,4 @@
-package com.sangeng.domain.mapper;
+package com.sangeng.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.sangeng.domain.entity.Article;

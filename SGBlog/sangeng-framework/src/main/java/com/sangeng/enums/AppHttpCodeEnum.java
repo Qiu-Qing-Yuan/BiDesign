@@ -1,4 +1,4 @@
-package com.sangeng.domain.enums;
+package com.sangeng.enums;
 
 public enum AppHttpCodeEnum {
     // 成功
