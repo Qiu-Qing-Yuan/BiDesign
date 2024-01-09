@@ -72,3 +72,13 @@ public enum AppHttpCodeEnum {
 优化相应数据（前端用不到这么多数据）
 
 ![image-20240104142024754](README.assets/image-20240104142024754.png)
+
+
+
+
+
+
+
+便于描述后续的父子分类关系
+
+![image-20240105101731879](README.assets/image-20240105101731879.png)
