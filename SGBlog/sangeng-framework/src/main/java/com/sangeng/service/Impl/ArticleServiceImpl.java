@@ -34,6 +34,8 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
     @Autowired
     private CategoryService categoryService;
 
+
+    //热门文章查询
     @Override
     public ResponseResult hotArticleList() {
         //查询热门文章 封装成ResponseResult返回
@@ -91,6 +93,11 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
     }*/
 
 
+    /*
+    * 分页查询文章列表
+    *   首页:查询所有的文章
+    *   分类页面：查询对应分类下的文章
+    * */
     @Override
     public ResponseResult articleList(Integer pageNum, Integer pageSize, Long categoryId) {
         //查询条件
@@ -111,13 +118,12 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
         //articleId去查询articleName进行设置
         for (Article article : articles) {
 
-
             Category category = categoryService.getById(article.getCategoryId());
+            //设置文章的分类名字
+            article.setCategoryName(category.getName());
+
 
         }
-
-
-
 
 
 
