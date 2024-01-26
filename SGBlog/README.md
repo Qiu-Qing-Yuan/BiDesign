@@ -125,3 +125,24 @@ public enum AppHttpCodeEnum {
     }
 ~~~
 
+
+
+
+
+
+
+
+
+ctrl+shift+u:大小写切换
+
+
+
+
+
+
+
+36.统一异常处理
+
+
+
+![image-20240122113637464](README.assets/image-20240122113637464.png)
